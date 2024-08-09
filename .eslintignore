@@ -1,0 +1,11 @@
+.husky
+.vscode
+node_modules
+public
+dist
+src/modules/js_sdk
+src/components/other/echart
+
+* copy*
+auto-import.d.ts
+auto-components.d.ts

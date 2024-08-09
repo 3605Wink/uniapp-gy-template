@@ -1,0 +1,13 @@
+.husky
+.vscode
+node_modules
+public
+dist
+
+src/components/other/echart
+src/pages/chargingProcess/components/charging
+src/pages/allOrders/components/Card
+
+normalize.css
+* copy*
+

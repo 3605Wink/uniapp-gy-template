@@ -1,0 +1,1 @@
+export type Path = "home" | "login" | "user" | "register" | "placeList" | "palceDetail" | "carOrder" | "chargeStart" | "charging" | "chargeEnd" | "equipList" | "equipDetail" | "allOrder" | "orderDetail";

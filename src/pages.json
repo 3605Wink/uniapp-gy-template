@@ -1,0 +1,68 @@
+{
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"mp-alipay": {
+			"defaultTitle": "",
+			"transparentTitle": "always",
+			"titlePenetrate": "YES",
+			"navigationBarFrontColor": "black"
+		}
+	},
+	"insetLoader": {
+		"config": {
+			"privacyModal": "<privacyModal></privacyModal>",
+			"message": "<GyMessage ref='messageRef'></GyMessage>",
+			"dialog": "<GyDialog ref='dialogRef'></GyDialog>"
+		},
+		"label": ["message", "privacyModal", "dialog"],
+		// 包裹组件
+		"package": {
+			"label": "div",
+			"options": {
+				"id": "demo-id",
+				"class": "demo-class",
+				"style": {
+					//....
+					"backgroundColor": "#3eb3af"
+				}
+			}
+		}
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#3eb3af",
+		"backgroundColor": "#fff",
+		"iconWidth": "28px",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"text": "首页",
+				"iconPath": "/static/home_1.png",
+				"selectedIconPath": "/static/home_2.png"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "我的",
+				"iconPath": "/static/user_1.png",
+				"selectedIconPath": "/static/user_2.png"
+			}
+		]
+	},
+
+	"pages": [
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		}
+	]
+}
